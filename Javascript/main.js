@@ -14,4 +14,23 @@ function handle(data){
         img.src = array[i].Poster
         parent.appendChild(cloun)
     }
+    let images = renderElementAll(".images img")
+    imaging(images)
 }
+let imagesContainer = renderElement(".images")
+function imaging(img){
+    let index = 0
+    let changes = () => {
+        if(index == img.length-1){
+            index = 0
+        }else if(index <0){
+            index = img.length-1
+        }
+        imagesContainer.style.transform = `translateX(${index*-300}px)`
+        imagesContainer.style.transition = '0.5s ease'
+    }
+    setInterval(() => {
+        index++
+        changes()
+    }, 1000)
+}    

@@ -10,3 +10,6 @@ function createTag(tag){
 function textNode(text){
     return document.createTextNode(text)
 }
+function renderElementAll(element){
+    return document.querySelectorAll(element)
+}

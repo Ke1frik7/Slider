@@ -1,0 +1,28 @@
+.slider{
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    overflow: hidden;
+}
+.title{
+    width: 100%;
+    @include center;
+    position: relative;
+}
+.sliders_title{
+    position: absolute;
+    top: 1.8rem;
+    font-size: 40px;
+    text-align: center;
+}
+.images{
+    width: 100%;
+    display: flex;
+    transform: translate(0px);
+} // 300px
+images img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
