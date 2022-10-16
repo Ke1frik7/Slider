@@ -1,0 +1,25 @@
+:root {
+  --qora: black;
+  --yellow: yellow;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px auto;
+}
+
+section {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+}/*# sourceMappingURL=main.css.map */
